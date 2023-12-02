@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9774365a-e4fd-4ca6-8dd1-996884747c7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_nrepl_incomplete_0_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advent_of_code_2023/day_1/solution.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/advent_of_code_2023/day_1/solution_test.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9774365a-e4fd-4ca6-8dd1-996884747c7d" name="Changes" comment="Day 1">
+      <change afterPath="$PROJECT_DIR$/src/advent_of_code_2023/day_2/solution.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/advent_of_code_2023/day_2/solution_test.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent-of-code-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advent-of-code-2023.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +47,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="ReplState" timestamp="1701540145076">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunManager" selected="clojure.test.Test advent-of-code-2023.day-1.solution-test/last-digit-test">
+  <component name="ReplState" timestamp="1701541956139">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="RunManager" selected="clojure.test.Run tests in advent-of-code-2023.day-2.solution-test">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -109,24 +99,10 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Run tests in advent-of-code-2023.day-1.solution-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+    <configuration name="Run tests in advent-of-code-2023.day-2.solution-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
       <module name="advent-of-code-2023" />
-      <option name="namespace" value="advent-of-code-2023.day-1.solution-test" />
+      <option name="namespace" value="advent-of-code-2023.day-2.solution-test" />
       <option name="selector" value="SINGLE_NS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test advent-of-code-2023.day-1.solution-test/convert-number-words-to-digits-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
-      <module name="advent-of-code-2023" />
-      <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="advent-of-code-2023.day-1.solution-test/convert-number-words-to-digits-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test advent-of-code-2023.day-1.solution-test/first-digit-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
-      <module name="advent-of-code-2023" />
-      <option name="selector" value="SINGLE_VAR" />
-      <option name="varFqn" value="advent-of-code-2023.day-1.solution-test/first-digit-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -137,19 +113,42 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test advent-of-code-2023.day-2.solution-test/parse-game-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="advent-of-code-2023" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="advent-of-code-2023.day-2.solution-test/parse-game-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test advent-of-code-2023.day-2.solution-test/parse-round-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="advent-of-code-2023" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="advent-of-code-2023.day-2.solution-test/parse-round-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test advent-of-code-2023.day-2.solution-test/round-possible?-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="advent-of-code-2023" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="advent-of-code-2023.day-2.solution-test/round-possible?-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Clojure REPL.REPL" />
-      <item itemvalue="clojure.test.Test advent-of-code-2023.day-1.solution-test/convert-number-words-to-digits-test" />
-      <item itemvalue="clojure.test.Run tests in advent-of-code-2023.day-1.solution-test" />
-      <item itemvalue="clojure.test.Test advent-of-code-2023.day-1.solution-test/first-digit-test" />
       <item itemvalue="clojure.test.Test advent-of-code-2023.day-1.solution-test/last-digit-test" />
+      <item itemvalue="clojure.test.Test advent-of-code-2023.day-2.solution-test/parse-round-test" />
+      <item itemvalue="clojure.test.Run tests in advent-of-code-2023.day-2.solution-test" />
+      <item itemvalue="clojure.test.Test advent-of-code-2023.day-2.solution-test/parse-game-test" />
+      <item itemvalue="clojure.test.Test advent-of-code-2023.day-2.solution-test/round-possible?-test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="clojure.test.Run tests in advent-of-code-2023.day-2.solution-test" />
+        <item itemvalue="clojure.test.Test advent-of-code-2023.day-2.solution-test/round-possible?-test" />
+        <item itemvalue="clojure.test.Test advent-of-code-2023.day-2.solution-test/parse-game-test" />
+        <item itemvalue="clojure.test.Test advent-of-code-2023.day-2.solution-test/parse-round-test" />
         <item itemvalue="clojure.test.Test advent-of-code-2023.day-1.solution-test/last-digit-test" />
-        <item itemvalue="clojure.test.Test advent-of-code-2023.day-1.solution-test/first-digit-test" />
-        <item itemvalue="clojure.test.Run tests in advent-of-code-2023.day-1.solution-test" />
-        <item itemvalue="clojure.test.Test advent-of-code-2023.day-1.solution-test/convert-number-words-to-digits-test" />
       </list>
     </recent_temporary>
   </component>
@@ -162,8 +161,23 @@
       <option name="presentableId" value="Default" />
       <updated>1701537384649</updated>
       <workItem from="1701537387474" duration="781000" />
-      <workItem from="1701538206168" duration="1932000" />
+      <workItem from="1701538206168" duration="3739000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1701540168057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701540168057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 1">
+      <created>1701540177550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701540177550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,5 +193,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <MESSAGE value="Day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="ClojureTestRunConfiguration">
+        <watch expression="(vec (map parse-round round-strings))" language="Clojure" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
